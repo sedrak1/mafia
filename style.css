@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3vw;
+    font-weight: 700;
+    background-color: gray;
+    text-align: center;
+}
+header {
+    display: flex;
+    width: 100%;
+}
+
+.black {
+    color: red;
+    background-color: black;
+    width: 50%;
+    text-align: right;
+    padding: 2% 0 2% 2%;
+}
+
+.red {
+    background-color: red;
+    color: black;
+    width: 50%;
+    text-align: left;
+    padding: 2% 2% 2% 0;
+}
+
+.startButton {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 3vw;
+    font-weight: 700;
+    background-color: rgba(128, 128, 128, 0);
+    border-radius: 8px;
+    border: solid 3px white;
+    color: rgb(192, 191, 191);
+    margin-top: 3%;
+    padding: 0 1% 0 1%;
+    transition: 0.3s;
+}
+
+.startButton:hover {
+    background-color: rgba(68, 68, 68, 0.205);
+    cursor: pointer;
+    color: black;
+}
